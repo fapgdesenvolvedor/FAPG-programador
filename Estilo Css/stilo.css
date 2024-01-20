@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    opacity: 0.8;
+}
+
+.fundo{
+    height: 100%;
+    background-image: url(../Imagens/Fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+.logo{
+    margin-top: -5px;
+    margin-bottom: 0px;
+    margin-left: -5px;
+    width: 300px;
+}
+@media only screen and (max-width: 576px) {
+    .logo{
+        margin: auto;
+        margin-top: -5px;
+        width: 300px;
+    }
+    
+}
+
+.menu{
+    text-align: center;
+    margin: 2px auto;
+}
+
+.social{
+    width: 250px;
+    padding: 1px 5px;
+    margin-left: auto;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .social{
+        margin: 1px auto;
+        padding: 1px auto;
+        text-align: center;
+    }
+    
+}
+a:hover{
+    border-bottom: 2px double #e8e8e8;
+    font-weight: bolder;
+    border-radius: 30%;
+    padding-left: 2px;
+}
